@@ -8,7 +8,7 @@ from scapy.layers.dns import DNS, DNSQR, DNSRR
 from scapy.layers.inet import UDP, IP, TCP
 from datetime import datetime
 from source.dnsfiglet import dnsfiglet
-from source.dnsfirewall import DNSSpoofingDetector  # dnsfirewall dosyanızın bulunduğu yere göre import edin
+from source.dnsfirewall import DNSSpoofingDetector
 from source.version import __version__
 
 OUTPUT_PATH = Path(__file__).parent
